@@ -2,11 +2,18 @@ import React from "react";
 import ReactDOM  from "react-dom";
 
 const App = () => {
+    const divText = "hello Variable !";
     return (
-        <div>Hello , Mayank!</div>
+        <div
+        style={{
+            backgroundColor:"red"
+        }}
+        >{divText}</div>
     )
 }
 
-ReactDOM.render(<App />,
-document.getElementById("root")
-)
+ReactDOM.render(
+<App />,
+// document.getElementById("root")
+document.querySelector("#root")
+);
