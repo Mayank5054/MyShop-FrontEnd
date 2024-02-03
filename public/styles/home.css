@@ -1,0 +1,33 @@
+.home_div{
+    min-height:80vh;
+    width:100vw;
+    /* background:red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home_div > div{
+    box-shadow: 1px 1px 5px black;
+    height:100px;
+    width:40%;
+    border-radius: 5px;
+    /* background:green; */
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.sub_div{
+    height:80%;
+    width:100%;
+    /* background:yellow; */
+}
+.AddToCartForm{
+    height:20%;
+    width:100%;
+    margin-top:-10%;
+    /* background:blue; */
+}

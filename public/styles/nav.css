@@ -1,0 +1,16 @@
+.navbar_div{
+    /* background:green; */
+    height:50px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 0px 5px black;
+}
+.navbar_div > a {
+    margin:auto;
+    /* margin-left:auto; */
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+}

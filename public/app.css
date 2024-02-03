@@ -1,0 +1,7 @@
+@import url("./styles/nav.css");
+@import url("./styles/home.css");
+
+body{
+    margin:0px;
+    padding:0px;
+}
