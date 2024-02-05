@@ -1,7 +1,12 @@
 const Order = () => {
     return (
         <>
-        <div>This is order page</div>
+       <div className="order">
+        <div className="sub_class_order">
+            <p>Title</p>
+            <p>Quantity</p> 
+        </div>
+       </div>
         </>
     )
 }
